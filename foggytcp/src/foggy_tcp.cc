@@ -9,6 +9,13 @@ from releasing their forks in any public places. */
  
  /*
  * This file implements the high-level API for foggy-TCP sockets.
+ *
+ * ELEC 3120 - Checkpoint 1 (Kickoff):
+ * This checkpoint only covers the environment setup (Vagrant/VirtualBox +
+ * tcconfig) and the measurement of how file size, bandwidth and network delay
+ * affect transmission time, so no protocol logic is modified here yet.
+ * The TCP state machine, sliding window and congestion control will be
+ * implemented in Checkpoints 2-4.
  */
 
 #include "foggy_tcp.h"

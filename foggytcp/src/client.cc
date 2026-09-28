@@ -25,6 +25,10 @@ using namespace std;
  *
  * For example:
  * ./client 10.0.1.1 3120 test.in
+ *
+ * ELEC 3120 - Checkpoint 1: this client is used to measure the transmission
+ * time of a file under different file sizes, bandwidths and network delays
+ * (results are discussed in the Checkpoint 1 report).
  */
 
 int main(int argc, const char* argv[]) {
